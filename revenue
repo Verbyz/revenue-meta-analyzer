@@ -1,0 +1,11 @@
+{
+  "name": "revenue-meta-analyzer",
+  "version": "0.1.0",
+  "description": "Simple revenue pricing and multiplier analysis for crypto projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
