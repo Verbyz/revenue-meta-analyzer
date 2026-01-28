@@ -10,3 +10,16 @@ Compare direct fee-sharing models vs buyback-based revenue models.
 ```bash
 npm install
 npm start
+
+---
+
+## ✅ Commit 3 — `Add revenue multiplier calculator`
+
+**`calculator.js`**
+```js
+function revenueMultiplier(marketCap, annualRevenue) {
+  if (annualRevenue === 0) return Infinity;
+  return marketCap / annualRevenue;
+}
+
+module.exports = { revenueMultiplier };
